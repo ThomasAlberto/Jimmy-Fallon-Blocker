@@ -120,6 +120,10 @@
 		E9F6085729DDB74C00748818 /* Jimmy Fallon Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Jimmy Fallon Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F6085C29DDB74C00748818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9F6085D29DDB74C00748818 /* Jimmy Fallon Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Jimmy Fallon Blocker.entitlements"; sourceTree = "<group>"; };
+		E9F6088C29DDB77900748818 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		E9F6088D29DDB79300748818 /* image-process.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "image-process.js"; sourceTree = "<group>"; };
+		E9F6088E29DDB7AC00748818 /* manifest.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = manifest.js; sourceTree = "<group>"; };
+		E9F6088F29DDB7C600748818 /* face-api.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "face-api.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +262,10 @@
 			children = (
 				E9F6085C29DDB74C00748818 /* Info.plist */,
 				E9F6085D29DDB74C00748818 /* Jimmy Fallon Blocker.entitlements */,
+				E9F6088C29DDB77900748818 /* content.js */,
+				E9F6088D29DDB79300748818 /* image-process.js */,
+				E9F6088E29DDB7AC00748818 /* manifest.js */,
+				E9F6088F29DDB7C600748818 /* face-api.js */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
